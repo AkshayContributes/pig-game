@@ -189,6 +189,10 @@ main {
       top: 45rem;
     }
 
+    .btn{
+      font-size: 3.2rem;
+    }
+
     .btn--new {
       top: -10rem;
     }
