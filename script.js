@@ -108,13 +108,9 @@ function resetPlayer(player){
             
     document.querySelector(`#current--${player}`).textContent = 0;
 
-    if(player === 1){
-        document.querySelector('.player--0').classList.
+    document.querySelector(`.player--${Number(!player)}`).classList.
                 add('player--active');
-    }else{
-        document.querySelector('.player--1').classList.
-        add('player--active');
-    }
+    
 }
 
 btnNew.addEventListener('click', init);
