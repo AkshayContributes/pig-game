@@ -171,3 +171,31 @@ main {
 .hidden{
   display: none;
 }
+
+@media (max-width: 650px) {
+    html {
+      font-size: 30%;
+    }
+
+    main{
+      display: flex;
+      flex-direction: column;
+      width: 100rem;
+      height: 100rem;
+      overflow: visible;
+    }
+
+    .dice{
+      top: 45rem;
+    }
+
+    .btn--new {
+      top: -10rem;
+    }
+    .btn--roll {
+      top: 110rem;
+    }
+    .btn--hold {
+      top: 120rem;
+    }
+}
